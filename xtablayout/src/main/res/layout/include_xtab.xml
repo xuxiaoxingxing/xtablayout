@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.xiaoxing.xtablayout.XTabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_45"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/padding_10"
+        app:xTabIndicatorColor="@color/hui_login_btn_background"
+        app:xTabIndicatorHeight="2dp"
+        app:xTabIndicatorWidth="@dimen/width_60"
+        app:xTabMode="scrollable"
+        app:xTabSelectedTextColor="@color/hui_login_btn_background"
+        app:xTabSelectedTextSize="@dimen/text_size_16"
+        app:xTabTextColor="@color/hui_login_btn_background"
+        app:xTabTextSize="@dimen/text_size_14"/>
+
+    <include layout="@layout/line_horizontal"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+</LinearLayout>

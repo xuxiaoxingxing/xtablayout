@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="line_color">#DADADA</color>
+    <color name="white">#ffffff</color>
+    <color name="hui_login_btn_background">#d94d2f</color>
+</resources>
