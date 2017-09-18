@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Xiaoxing_XtabLayout.iml" filepath="$PROJECT_DIR$/Xiaoxing_XtabLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xtablayout/xtablayout.iml" filepath="$PROJECT_DIR$/xtablayout/xtablayout.iml" />
     </modules>
   </component>
 </project>
